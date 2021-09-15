@@ -1,0 +1,14 @@
+api_platform:
+
+    title:
+        'API TEST-PHP-CINEMA'
+    description : 'Test PHP Cinéma' 
+    version : '1.1.0' 
+    mapping:
+        paths: ['%kernel.project_dir%/src/Entity']
+    patch_formats:
+        json: ['application/merge-patch+json']
+    swagger:
+        versions: [3]
+    defaults:
+        pagination_items_per_page: 20
